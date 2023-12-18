@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="Ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <style>
+    BODY {
+      background-color: rgba(107, 107, 100, 0.719);
+      transition: background-color 2s;
+      height: 1000px;
+    }
+    @font-face {
+      font-family: "PartialSansKR-Regular";
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2")
+        format("woff2");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .ccc {
+      background-color: pink;
+      width: 800px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      border: 3px rgba(255, 238, 216, 0.418) solid;
+      border-radius: 10px;
+    }
+
+    .aa {
+      display: block;
+
+      /* background-color: antiquewhite;
+      width: 300px;
+      height: 300px; */
+      font-size: 30px;
+      transition: all 500ms cubic-bezier(0.42, 0, 1, 1); /* ease-in */
+      transition-timing-function: cubic-bezier(0.42, 0, 1, 1); /* ease-in */
+
+      align-self: center;
+      color: blanchedalmond;
+      margin-right: 100px;
+      font-family: "PartialSansKR-Regular";
+      -webkit-text-stroke: 2px rgba(128, 128, 128, 0.733);
+      -mos-text-stroke: 2px rgba(128, 128, 128, 0.733);
+      -ms-text-stroke: 2px rgba(128, 128, 128, 0.733);
+      -o-text-stroke: 2px rgba(128, 128, 128, 0.733);
+    }
+    .aa:hover {
+      transform: scale(3);
+    }
+    .bb {
+      border: 2px solid rgb(220, 220, 220);
+      border-radius: 15px;
+      display: block;
+      background-color: skyblue;
+      width: 200px;
+      height: 200px;
+      margin-left: 50px;
+      transition: all 500ms cubic-bezier(0.42, 0, 1, 1); /* ease-in */
+      transition-timing-function: cubic-bezier(0.42, 0, 1, 1); /* ease-in */
+    }
+    p {
+      text-align: center;
+      font-size: 50px;
+      font-family: "PartialSansKR-Regular";
+      color: coral;
+      -webkit-text-stroke: 1px rgba(128, 128, 128, 0.733);
+      -mos-text-stroke: 1px rgba(128, 128, 128, 0.733);
+      -ms-text-stroke: 1px rgba(128, 128, 128, 0.733);
+      -o-text-stroke: 1px rgba(128, 128, 128, 0.733);
+      margin-top: 60px;
+    }
+    .bb:hover {
+      transform: rotate(180deg) scale(0.3);
+    }
+    .FFF {
+      background-color: coral;
+      display: block;
+      border: 6px solid pink;
+      border-radius: 8px;
+      width: 70px;
+      height: 70px;
+      font-size: 3rem;
+      color: rgb(250, 232, 238);
+      text-align: center;
+      position: fixed;
+      transition: all 1s ease;
+      top: 10px;
+    }
+    .FFF:hover {
+      height: 200px;
+    }
+  </style>
+  <body
+    onload="document.querySelector('body').style.backgroundColor='blanchedalmond';"
+  >
+    <div class="ccc">
+      <div class="aa">밍구</div>
+      <div class="bb"><p>♥play</p></div>
+    </div>
+    <div class="FFF">♥</div>
+  </body>
+</html>
