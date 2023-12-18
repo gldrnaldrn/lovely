@@ -9,7 +9,7 @@
     BODY {
       background-color: rgba(107, 107, 100, 0.719);
       transition: background-color 2s;
-      height: 1000px;
+      height:2000px;
     }
     @font-face {
       font-family: "PartialSansKR-Regular";
@@ -18,24 +18,24 @@
       font-weight: normal;
       font-style: normal;
     }
-      @keyframes gldrn{
-        0%{
-            background-color: antiquewhite;
-        }    
-        40%
-        {
-            background-color: rgb(255, 212, 163);
-        }    
-        50%{
-            background-color: rgb(148, 179, 171);
-        }
-        80%{
-            background-color: pink;
-        }
-        100%{
-            background-color: rgb(255, 197, 197);
-        }
+    @keyframes gldrn {
+      0% {
+        background-color: antiquewhite;
       }
+      40% {
+        background-color: rgb(255, 212, 163);
+      }
+      50% {
+        background-color: rgb(148, 179, 171);
+      }
+      80% {
+        background-color: pink;
+      }
+      100% {
+        background-color: rgb(255, 197, 197);
+        
+      }
+    }
     .ccc {
       background-color: pink;
       width: 800px;
@@ -111,6 +111,16 @@
     .FFF:hover {
       height: 200px;
     }
+    #bg > img {
+      display: flex;
+      margin: auto;
+      margin-top: 150px;
+      border: 3px rgba(202, 185, 25, 0.726) solid;
+      border-radius: 600px;
+      width:600px;
+      height: auto;
+    }
+ 
   </style>
   <body
     onload="document.querySelector('body').style.backgroundColor='blanchedalmond';"
@@ -120,5 +130,7 @@
       <div class="bb"><p>♥play</p></div>
     </div>
     <div class="FFF">♥</div>
+    <div id="bg"><img src="./img/minggu.jpg" /></div>
+
   </body>
 </html>
